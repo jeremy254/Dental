@@ -1,0 +1,152 @@
+.bar{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    height: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    display: block;
+  }
+.navbar {
+    background-color: grey;
+    opacity: .4px;
+    overflow: hidden;
+  }
+  
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.navbar a:hover {
+    background-color: rgb(226, 26, 26);
+    color:black;
+  }
+  
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .pic{
+    padding-top: 200px;    
+    height: 450px;
+    width: 700px;
+    float: right;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    
+
+}
+.welcome{
+    font-size: 30px;
+    padding-top: 120px;
+    margin: 50px;
+    font-family: 'Dosis', sans-serif;
+
+}
+.doctor{
+    float: left;
+    margin-top: 0px;
+}
+.doc-text{
+    float:right;
+    font-size: 30px;
+    margin-left: 850px;
+    margin-top: -300px;
+    font-family: 'Dosis', sans-serif;
+
+    
+}
+.Doc-heading{
+    font-size: 30px;    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+.services{
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -50px;    
+    padding-top: 100px;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+.service-list{
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+
+    padding-top: 100px;
+}
+.home{
+    border: 1px solid black transparent;
+    border-bottom-color: white;
+    height: 600px;
+}
+.docs{
+    border: 1px solid black transparent;
+    border-bottom-color: white;
+    border-top-color: white;
+    height: 700px;
+
+}
+.serve{
+        border-color: red transparent; 
+        border-top-color: white;
+        border-bottom-color: white;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 0px;
+        height: 600px;
+        
+    }
+
+.testimonials{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+}
+.test{
+    border: 1px solid transparent;
+    border-bottom-color: white;
+    border-top-color: white;
+    font-family: 'Dosis', sans-serif;
+}
+.test-head{
+    text-align: center;
+    font-size: 25px;
+}
+.testi{
+    font-size: 20px;    
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+    
+
