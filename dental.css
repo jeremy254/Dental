@@ -13,7 +13,7 @@ ul {
     display: block;
   }
 .navbar {
-    background-color: grey;
+    background-color : orange;
     opacity: .4px;
     overflow: hidden;
   }
@@ -95,29 +95,35 @@ ul {
     list-style: none;
     font-size: 30px;
     font-family: 'Dosis', sans-serif;
-
     padding-top: 100px;
+    ;
 }
 .home{
     border: 1px solid black transparent;
+    background-color: cyan;
     border-bottom-color: white;
-    height: 600px;
+    padding-bottom: 100px;
+    height: 700px;
 }
 .docs{
     border: 1px solid black transparent;
-    border-bottom-color: white;
+    background-color: lightpink;
     border-top-color: white;
+    padding-top: 200px;
+
     height: 700px;
 
 }
 .serve{
-        border-color: red transparent; 
-        border-top-color: white;
+        border-color: red transparent;
+        background-color: #F36F07; 
+        
         border-bottom-color: white;
         border-width: 1px;
         border-style: solid;
         margin-top: 0px;
         height: 600px;
+        color: white;
         
     }
 
@@ -127,9 +133,11 @@ ul {
     margin-top: 200px;
 }
 .test{
-    border: 1px solid transparent;
+    border: 1px solid transparent ;
+    color: white;
+    background-color: #715D51;
     border-bottom-color: white;
-    border-top-color: white;
+    border-top-color: #F36F07;
     font-family: 'Dosis', sans-serif;
 }
 .test-head{
